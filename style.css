@@ -95,15 +95,6 @@ footer {
 
 
 @media screen and (max-width: 576px) {
-    .navbar {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .navbar-logo {
-        height: 70px;
-    }
-
     .navbar-toggler {
         background: #FFFFFF;
         width: 45px;
