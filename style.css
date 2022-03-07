@@ -91,3 +91,51 @@ footer {
     padding: 30px;
     background-color: #0c121d !important;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .navbar-logo {
+        height: 70px;
+    }
+
+    .navbar-toggler {
+        background: #FFFFFF;
+        width: 45px;
+        height: 30px;
+        size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 34px;
+        line-height: 40px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 30px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-toggler {
+        background: #FFFFFF;
+    }
+
+}
