@@ -118,19 +118,6 @@ footer {
         margin-top: 15px;
 
     }
-
-    .text-gradient {
-        background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
-
-    .packages {
-        background: linear-gradient(to right, #F5A018, #F5A018, #D963AE, #D963AE);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
-
     h1 {
         font-size: 34px;
         line-height: 40px;
