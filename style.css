@@ -72,11 +72,11 @@ h4 {
     color: #D963AE;
 }
 
-/* .text-gradient {
+.textGradient {
     background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-} */
+}
 
 .packages {
     background: linear-gradient(to right, #F5A018, #F5A018, #D963AE, #D963AE);
