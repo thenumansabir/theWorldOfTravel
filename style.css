@@ -53,10 +53,8 @@ h1 {
     font-size: 64px;
     font-weight: bold;
     line-height: 80px;
-    /* color: #D963AE; */
-    background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    color: #D963AE;
+
 }
 
 h2 {
@@ -75,11 +73,7 @@ h4 {
     color: #D963AE;
 }
 
-/* .textGradient {
-    background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-} */
+
 
 .packages {
     background: linear-gradient(to right, #F5A018, #F5A018, #D963AE, #D963AE);
@@ -129,6 +123,7 @@ footer {
         line-height: 40px;
         display: flex;
         justify-content: center;
+        
 
     }
 
@@ -159,4 +154,12 @@ footer {
     }
 
 
+}
+
+@media screen and (min-width: 576px) {
+    .textGradient {
+        background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
 }
