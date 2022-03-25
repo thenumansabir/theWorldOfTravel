@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The World Of Travel</title>
+    <link rel="icon" href="images/hero-image.png" type="image/gif">
+
 
     <!-- Google font CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +24,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,7 +45,7 @@
                     <a class="nav-link color text-primary" href="aboutUs.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color text-primary" href="contactUs.html">Contact Us</a>
+                    <a class="nav-link color text-primary" href="#contactUS">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -60,7 +62,7 @@
         <section>
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <ul class="nav-tabs nav justify-content-around">
+                    <ul class="nav-tabs nav justify-content-around d-inline d-sm-flex">
                         <li class="nav-item">
                             <a href="#islamabad" class="nav-link active tab-color" data-toggle="tab">Islamabad</a>
                         </li>
@@ -80,8 +82,8 @@
 
                     <div class="tab-content">
                         <div class="tab-pane active" id="islamabad">
-                            <div class="row justify-content-center mt-5 mx-2">
-                                <div class="col-6">
+                            <div class="row mt-5 mx-2">
+                                <div class="col-12 col-sm-6">
                                     <h4>Tour Detials</h4>
                                     <p>1 Day Tour to Islamabad</p>
                                     <p> <strong>Visiting Places:</strong> Faisal Masjid, Shakarparian</p>
@@ -105,14 +107,14 @@
                                         <li>Face Mask & Hand Sanitizer </li>
                                     </ul>
                                 </div>
-                                <div class="col-6 align-items-center">
+                                <div class="col-6 d-none d-sm-block">
                                     <img class="rounded" src="images/isb.jpg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="murree">
-                            <div class="row justify-content-center mt-5 mx-2">
-                                <div class="col-6">
+                            <div class="row mt-5 mx-2">
+                                <div class="col-12 col-sm-6">
                                     <h4>Tour Detials</h4>
                                     <p>1 Day Tour to Murree</p>
                                     <p> <strong>Visiting Places:</strong> Mall Road, Ayubia & Nathia Gali</p>
@@ -136,14 +138,14 @@
                                         <li>Face Mask & Hand Sanitizer </li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6 d-none d-sm-block">
                                     <img class="rounded" src="images/murree.jpg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="abbottabad">
-                            <div class="row justify-content-center mt-5 mx-2">
-                                <div class="col-6">
+                            <div class="row mt-5 mx-2">
+                                <div class="col-12 col-sm-6">
                                     <h4>Tour Detials</h4>
                                     <p>1 Day Tour to Abbottabad</p>
                                     <h4>Packages</h4>
@@ -166,14 +168,14 @@
                                         <li>Face Mask & Hand Sanitizer </li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6 d-none d-sm-block">
                                     <img class="rounded" src="images/abbottabad.jpg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="naran">
-                            <div class="row justify-content-center mt-5 mx-2">
-                                <div class="col-6">
+                            <div class="row mt-5 mx-2">
+                                <div class="col-12 col-sm-6">
                                     <h4>Tour Detials</h4>
                                     <p>3-7 Days Tour to Naran Kaghan</p>
                                     <h4>Packages</h4>
@@ -196,14 +198,14 @@
                                         <li>Face Mask & Hand Sanitizer </li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6 d-none d-sm-block">
                                     <img class="rounded" src="images/naran-kaghan.jpg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="hunza">
-                            <div class="row justify-content-center mt-5 mx-2">
-                                <div class="col-6">
+                            <div class="row mt-5 mx-2">
+                                <div class="col-12 col-sm-6">
                                     <h4>Tour Detials</h4>
                                     <p>3-7 Days Tour to Hunza Valley</p>
                                     <h4>Packages</h4>
@@ -226,7 +228,7 @@
                                         <li>Face Mask & Hand Sanitizer </li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6 d-none d-sm-block">
                                     <img class="rounded" src="images/hunza-valley.jpg" alt="">
                                 </div>
                             </div>
@@ -236,13 +238,21 @@
             </div>
         </section>
     </div>
-
-    <footer>
+    <footer id="contactUS" class="d-flex">
         <div class="ml-lg-5 pl-lg-5">
             <h5>Contact Us</h5>
             <span>Business Number: +92-332-5344436</span>
             <p>Complaint/Enquiries: <br>erum.shah5001@gmail.com</p>
             <strong>Please feel free to contact us if you have any further questions.</strong>
+        </div>
+        <div class="ml-5">
+            <div class="d-flex align-items-center ">
+                <a href="https://www.instagram.com/theworldoftravel8/?utm_medium=copy_link"
+                    target="_blank">
+                    <img width="35px" src="/images/insta_logo.png" alt="">
+                    <span class="text-white ml-4">Follow us</span>
+                </a>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap js -->

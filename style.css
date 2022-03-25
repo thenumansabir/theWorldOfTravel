@@ -53,7 +53,10 @@ h1 {
     font-size: 64px;
     font-weight: bold;
     line-height: 80px;
-    color: #D963AE;
+    /* color: #D963AE; */
+    background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 h2 {
@@ -137,6 +140,7 @@ footer {
     h3 {
         font-size: 17px;
         line-height: 30px;
+        margin: 0px 20px;
 
     }
 
@@ -144,6 +148,7 @@ footer {
         width: 100px;
         height: 75px;
     }
+
 }
 
 @media screen and (max-width: 992px) {
